@@ -57,8 +57,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopta Web - Restablecer Contraseña</title>
     <script src="https://cdn.tailwindcss.com"></script>
+<style>
+    body {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg transform='rotate(-20 80 80)' fill='%23000000' fill-opacity='0.08'%3E%3Ccircle cx='50' cy='50' r='12'/%3E%3Ccircle cx='80' cy='38' r='12'/%3E%3Ccircle cx='110' cy='50' r='12'/%3E%3Cellipse cx='80' cy='95' rx='30' ry='24'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 180px 180px;
+    background-repeat: repeat;
+    }
+</style>
 </head>
-<body class="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center p-4">
+<body class="min-h-screen flex items-center justify-center p-4">
     <div class="w-full max-w-md">
         <div class="text-center mb-8">
             <img src="./assets/img/login/logo-adopta-web.png" alt="Logo" class="w-32 h-32 mx-auto mb-6 object-cover rounded-full border-4 border-white shadow-lg">
